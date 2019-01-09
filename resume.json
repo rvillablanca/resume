@@ -1,0 +1,161 @@
+{
+  "basics": {
+    "name": "Rodrigo Villablanca",
+    "label": "Software Development Engineer",
+    "picture": "",
+    "email": "villa061004@gmail.com",
+    "phone": "(+56) 974733360",
+    "website": "https://arvisoft.cl",
+    "summary": "Software developer with 5+ years using Java for programming and web-development. Recently using Golang for personal and alternative projects.",
+    "location": {
+      "address": "Maipú, Santiago",
+      "city": "Santiago",
+      "countryCode": "CL",
+      "region": "Chile"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "rovillablanca",
+        "url": "https://twitter.com/rovillablanca"
+      },
+      {
+        "network": "Github",
+        "username": "rvillablanca",
+        "url": "https://github.com/rvillablanca"
+      },
+      {
+        "network": "StackOverflow",
+        "username": "rvillablanca",
+        "url": "https://stackoverflow.com/users/1896517/rvillablanca"
+      },
+      {
+        "network": "Github",
+        "username": "contributions",
+        "url": "https://github.com/pulls?q=is%3Apr+author%3Arvillablanca+archived%3Afalse+is%3Aclosed"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "KDU Ingeniería",
+      "position": "Senior Software Developer",
+      "website": "http://kdu.cl",
+      "startDate": "2014-01-02",
+      "endDate": "2018-12-31",
+      "summary": "Currenly I'm working as Senior software developer and Software architect for various projects with big client like Falabella, Transbank, Travelclub. As architect I have to define which technologies as appropiated for each project and why they are appropiated anticipating any posible problem.",
+      "highlights": [
+        "Creating base projects from scratch",
+        "Helping making decisions when choosing technologies/frameworks/tools",
+        "Helping to the team solving doubts about best practices in develpment and working collaboratively",
+        "Solving problems detectings bottle necks and bad performance"
+      ]
+    },
+    {
+      "company": "Experti",
+      "position": "Software Developer",
+      "website": "http://www.experti.cl",
+      "startDate": "2011-04-01",
+      "endDate": "2013-12-31",
+      "summary": "Mainly I worked helping to the team to develop Webpay, a web payment platform used in Chile for almost all online transactions. Another projects were related with assurance agencies and GDS integrations systems.",
+      "highlights": [
+        "Part of the core maintenance team for Webpay and other related projects",
+        "Integrating different commerces with Webpay",
+        "Adding new integration methods for Webpay like Webservices with WS-Security and Payment buttons"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Tecnológica Metropolitana",
+      "area": "Software Engineering",
+      "startDate": "2006-03-01",
+      "endDate": "2012-05-31"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java",
+      "level": "Master",
+      "keywords": [
+        "Jse/JEE",
+        "Spring Framework/Spring Boot",
+        "WebServices (Soap/RESTful)",
+        "Database/JPA",
+        "Jsf/Jsp/Struts",
+        "JMS",
+        "Tomcat/Oracle Weblogic",
+        "Maven/Ant/Gradle",
+        "Logging/log4j/slf4j"
+      ]
+    },
+    {
+      "name": "Go",
+      "level": "Intermediate",
+      "keywords": [
+        "Gorilla Mux",
+        "Viper",
+        "Gin Framework",
+        "Gitea/Gogs",
+        "Standard Library/Http"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Intermediate",
+      "keywords": [
+        "Docker",
+        "Linux/SSH",
+        "Shell Script/Bash",
+        "Apache HTTP/Nginx",
+        "Ubuntu/Debian/Arch",
+        "git/svn",
+        "Deployment Process"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "level": "Intermediate",
+      "keywords": [
+        "AngularJS/Angular 2+",
+        "HTML/CSS/Javascript"
+      ]
+    },
+    {
+      "name": "Other",
+      "level": "Basic/Intermediate",
+      "keywords": [
+        "Python",
+        "C/C++"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Technology",
+      "keywords": [
+        "Programming Languages",
+        "Video Games"
+      ]
+    },
+    {
+      "name": "Quality of life"
+    },
+    {
+      "name": "Family"
+    },
+    {
+      "name": "Travel"
+    }
+  ]
+}
