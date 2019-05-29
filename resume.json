@@ -73,14 +73,14 @@
       "name": "Java",
       "level": "Master",
       "keywords": [
-        "Jse/JEE",
+        "JSE/JEE",
         "Spring Framework/Spring Boot",
         "WebServices (Soap/RESTful)",
-        "Database/JPA",
-        "Jsf/Jsp/Struts",
+        "Database/JPA/Mongodb",
+        "JSF/JSP/Struts",
         "JMS",
         "Tomcat/Oracle Weblogic",
-        "Maven/Ant/Gradle",
+        "Maven/Ant",
         "Logging/log4j/slf4j"
       ]
     },
@@ -105,7 +105,9 @@
         "Apache HTTP/Nginx",
         "Ubuntu/Debian/Arch",
         "git/svn",
-        "Deployment Process"
+        "Deployment Process",
+        "Kubernetes",
+        "DigitalOcean"
       ]
     },
     {
