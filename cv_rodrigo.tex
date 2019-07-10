@@ -1,0 +1,84 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvtheme[blue]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+
+
+\firstname{Rodrigo}
+\familyname{Villablanca}
+\title{Ingeniero Civil en Computación}
+\address{Papudo 3134}{Maipú}
+\mobile{+56 974733360}
+%\phone{(56)2 9482130}
+\email{villa061004@gmail.com}               
+%\photo[64pt]{ariel.eps}                         
+
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+
+\section{Información Personal}
+
+\cventry{Nombre Completo}{Rodrigo Antonio Villablanca Vásquez}{}{}{}{}
+
+\cventry{R..U.T.}{16.089.456-3}{}{}{}{}
+
+\cventry{Fecha de Nacimiento}{10 de Julio de 1986}{}{}{}{}
+
+\cventry{Estado Civil}{Casado}{}{}{}{}
+
+\cventry{Nacionalidad}{Chileno}{}{}{}{}
+
+\section{Formación académica}
+
+\cventry{1992-1998}{Ingeniero Civil en Computación}{Titulado en la Facultad de Ingeniería de la \textbf{Universidad Tecnológica Metropolitana de Chile}}{}{}{}
+
+\cventry{1988-1991}{1ro. a 4to. Medio.}{Liceo Carolina Llona de Cuevas}{}{}{}
+
+\section{Experiencia Profesional}
+
+\cventry{2014-Presente}{Ingeniería y Arquitectura de Software}{KDU Ingeniería}{Trabajo como Desarrollador de Software Senior para diversos clientes, entre ellos Falabella, Transbank, Travelclub, Copec, etc. Formo parte del equipo de Arguitectura para las definiciones de tecnologías a usar e infraestructura de aplicaciones. Formo parte de un equipo multidisciplinario que trabaja con SCRUM con el cargo de Arguitecto de Software en Transbank}{}{}{}
+
+\cventry{2011-2013}{Ingeniero de Software}{Experti (ex Orange People)}{Me integré al equipo de desarrollo de Webpay, un plataforma de pago online usado en Chile para todas las transacciones de e-commerce online. Otros desarrollos estuvieron relacionados con agencias de seguros, medios de pago y sistemas de integración con GDS (Global Distribution System).}{}{}{}
+
+\closesection{}
+\pagebreak
+
+\section{Conocimientos}
+\cvcomputer{SO}{GNU/Linux (Debian, Ubuntu, Arch), Microsoft Windows}{Admin.}{Apache Web Server, Nginx, Apache Tomcat, FTP servers, SSH, HTTP proxys}
+\cvcomputer{DB}{MySQL, PostgreSQL, Oracle, HSQL, Microsoft SQL Server}{}{}
+\cvcomputer{Java}{JSE/JEE, Spring Framework/Boot, WebServices SOAP/Rest, JPA/Mongo, JSF/JSP/Struts, JMS, Tomcat/Weblogic, Maven/Ant, Logging/log4j/slf4j}{Golang}{Gorilla Mux, Viper, GinFramework, Gitea/Gogs, Standard Library/http}
+\cvcomputer{Frontend}{AngularJS, Angular 2+, html/css/javascript, Vue}{Other}{C/C++, Python}
+\cvcomputer{DevOps}{Docker, Linux/ssh, Shell Script/Bash, Apache HTTP/Nginx, Ubuntu/Debian/Arch, git/svn, Deployment Process, Kubernetes, DigitalOcean}{}{}
+
+\section{Idiomas}
+\cvlanguage{Español}{Nativo}{}
+\cvlanguage{Inglés}{Nivel intermedio}{}
+
+\end{document}
